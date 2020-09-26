@@ -1,9 +1,9 @@
 package TDAGrafo;
-import TDAGrafoDirigido.*;
+
 public class prueba {
 	private int numerito;
 	private String nombre;
-	
+
 	public prueba(String nombre, int num) {
 		numerito=num;
 		this.nombre=nombre;
@@ -15,3 +15,5 @@ public class prueba {
 		return nombre;
 	}
 }
+
+
