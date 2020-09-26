@@ -3,10 +3,11 @@ package TDAGrafo;
 public class prueba {
 	private int numerito;
 	private String nombre;
-
-	public prueba(String nombre, int num) {
+	private char k;
+	public prueba(String nombre, char edad, int num) {
 		numerito=num;
 		this.nombre=nombre;
+		edad=k;
 	}
 	public int getNumerito() {
 		return numerito;
