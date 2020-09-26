@@ -3,8 +3,8 @@ package TDAGrafo;
 public class prueba {
 	private int numerito;
 	private String nombre;
-
-	public prueba(String nombre, int num) {
+	private String dni;
+	public prueba(String nombre,String dni ,int num) {
 		numerito=num;
 		this.nombre=nombre;
 	}
