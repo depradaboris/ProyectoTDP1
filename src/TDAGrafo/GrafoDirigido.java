@@ -71,7 +71,7 @@ public class GrafoDirigido {
 	 removeNode(int node):void. remueve el nodo “node” del grafo, si el parámetro es un
 	nodo de la estructura
 	 * */
-	public void remove(int node) {
+	public void removeNode(int node) {
 		boolean encontro=false;
 		for(int i=0;i<Vertices.size() && !encontro; i++) {
 			if(Vertices.get(i)==node) {
